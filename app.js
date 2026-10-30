@@ -35,7 +35,7 @@ function screenView(id) {
         <div class="feature-progress"><span class="count">01</span><div><i></i></div><span>${String(s.featured.length).padStart(2,"0")}</span></div>
       </aside>
     </main>
-    <footer><span>ALLTID FÄRSKT · ALLTID SMAKFULLT</span><b class="credit">POWERED BY <strong>ALBATROSS CODING</strong></b><span>AL MALEK RESTAURANG</span></footer>
+    <footer><span>ALLTID FÄRSKT · ALLTID SMAKFULLT</span><b class="credit">POWERED BY <span class="albatross-name">ALBATROSS</span><span class="coding-name">CODING</span></b><span>AL MALEK RESTAURANG</span></footer>
   </div>`;
 }
 function overviewView() {
