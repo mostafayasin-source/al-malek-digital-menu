@@ -46,9 +46,9 @@ window.ALMALEK_MENU = {
         ["Nötköttstallrik",140,"KÖTT · SALLAD · TILLBEHÖR","assets/menu/beef-plate.png"],
         ["Kycklingtallrik",120,"KYCKLING · SALLAD · TILLBEHÖR","assets/menu/chicken-plate.png"],
         ["Falafel Arabi",95,"FALAFEL · POMMES · TAHINI","assets/menu/falafel-arabi.png"],
-        ["Crispy Meny",129,"KRISPIG KYCKLING · POMMES · PICKLES","assets/menu/crispy-meal-plate.png"],
-        ["Zinger Meny",129,"STARK KYCKLING · POMMES · PICKLES","assets/menu/zinger-meal-plate.png"],
-        ["TA MED · CRISPY & ZINGER","129","ALLT GÅR ATT TA MED · CRISPY & ZINGER MENY","assets/menu/takeaway-crispy-promo-v2.png"]
+        ["Crispy Meny",129,"KRISPIG KYCKLING · RUNDA POTATISAR · PICKLES","assets/menu/crispy-meal-plate-v2.png"],
+        ["Zinger Meny",129,"STARK KYCKLING · RUNDA POTATISAR · PICKLES","assets/menu/zinger-meal-plate-v2.png"],
+        ["TA MED · CRISPY & ZINGER","129","ALLT GÅR ATT TA MED · CRISPY & ZINGER MENY","assets/menu/takeaway-crispy-promo-v3.png"]
       ]
     },
     2: {
