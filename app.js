@@ -8,7 +8,7 @@ function money(value, extra = false) {
 }
 function groupView(group) {
   const labels = group.priceLabels ? `<div class="price-head"><span></span><b>${group.priceLabels[0]}</b><b>${group.priceLabels[1]}</b></div>` : "";
-  return `<section class="menu-group ${group.compact ? "compact" : ""} ${group.accent ? "accent" : ""}">
+  return `<section class="menu-group ${group.compact ? "compact" : ""} ${group.accent ? "accent" : ""}" style="--group-weight:${group.items.length + 1}">
     <header><i></i><h2>${group.title}</h2><i></i></header>${labels}
     <div class="items">${group.items.map(([name, price, desc, extra]) => `<div class="menu-row ${desc ? "has-desc" : ""}">
       <div class="item-name"><b>${name}</b>${desc ? `<small>${desc}</small>` : ""}</div>

@@ -45,7 +45,10 @@ window.ALMALEK_MENU = {
         ["Kyckling Arabi",100,"SKIVAD RULLE · POMMES · SÅS","assets/menu/chicken-arabi.png"],
         ["Nötköttstallrik",140,"KÖTT · SALLAD · TILLBEHÖR","assets/menu/beef-plate.png"],
         ["Kycklingtallrik",120,"KYCKLING · SALLAD · TILLBEHÖR","assets/menu/chicken-plate.png"],
-        ["Falafel Arabi",95,"FALAFEL · POMMES · TAHINI","assets/menu/falafel-arabi.png"]
+        ["Falafel Arabi",95,"FALAFEL · POMMES · TAHINI","assets/menu/falafel-arabi.png"],
+        ["Crispy Meny",129,"KRISPIG KYCKLING · POMMES · DRYCK","assets/menu/crispy-meal.png"],
+        ["Zinger Meny",129,"SPICY KYCKLING · POMMES · DRYCK","assets/menu/zinger-meal.png"],
+        ["TA MED · CRISPY & ZINGER","79+","ALLT GÅR ATT TA MED · RULLE 79 · MENY 129","assets/menu/takeaway-crispy-promo.png"]
       ]
     },
     2: {
@@ -87,14 +90,15 @@ window.ALMALEK_MENU = {
       ],
       featured: [
         ["½ Grillad Kyckling",119,"POMMES ELLER RIS · VITLÖKSSÅS","assets/menu/half-grilled-chicken.png"],
-        ["Hel Grillad Kyckling · TA MED",189,"ENDAST TAKEAWAY · SAFTIG, NYGRILLAD & PERFEKT ATT DELA","assets/menu/whole-grilled-chicken-takeaway.png"],
+        ["Hel Grillad Kyckling · TA MED",189,"KRISPIG POMMES · VITLÖKSSÅS · PICKLES","assets/menu/whole-grilled-chicken-takeaway-v2.png"],
         ["Hel Friterad Kyckling · TA MED",189,"ENDAST TAKEAWAY · 8 BITAR · SÅS · TILLBEHÖR","assets/menu/whole-fried-chicken.png"],
         ["Hummus · Mutabal · Muhammara",50,"KLASSISKA MEZE-RÖROR","assets/menu/meze-trio.png"],
         ["Tabbouleh & Fattoush",75,"TVÅ FRÄSCHA SALLADER","assets/menu/salad-duo.png"],
         ["Färsk Juice",59,"JORDGUBB · ANANAS · MANGO · AVOKADO","assets/menu/fresh-juice.png"],
         ["Milkshake",69,"OREO · VANILJ · JORDGUBB","assets/menu/milkshake.png"],
         ["Majskorn",59,"CHEDDAR · SMÖR · KRYDDOR","assets/menu/corn-cup.png"],
-        ["Våfflor · Crêpe · Pannkakor",89,"NUTELLA · EXTRA TOPPING +20","assets/menu/dessert-trio.png"]
+        ["Våfflor · Crêpe · Pannkakor",89,"NUTELLA · EXTRA TOPPING +20","assets/menu/dessert-trio.png"],
+        ["JUICE & DESSERT FEST","59+","JUICE 59 · MILKSHAKE 69 · DESSERT 89","assets/menu/juice-dessert-promo.png"]
       ]
     }
   }
