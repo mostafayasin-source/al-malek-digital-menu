@@ -11,7 +11,8 @@ window.ALMALEK_MENU = {
             ["Nötkött Rulle",75], ["Nötkött Rulle Extra",85], ["Falafelrulle",65]
           ]},
           { title: "BAGUETTER", compact: true, items: [
-            ["Kyckling Baguette",70], ["Nötkött Baguette",85], ["Falafel Baguette",70]
+            ["Kyckling Baguette",70], ["Nötkött Baguette",85], ["Falafel Baguette",70],
+            ["Crispy Rulle (Baguette)",79], ["Zinger Rulle (Baguette)",79]
           ]}
         ],
         [
@@ -30,6 +31,10 @@ window.ALMALEK_MENU = {
             ["Nötköttstallrik",140,"Tillbehör · pommes eller ris"],
             ["Falafeltallrik",95,"6 st falafel · tillbehör"],
             ["Falafel 4 st",25,"Enskilda falafelbollar"]
+          ]},
+          { title: "MENY", compact: true, items: [
+            ["Crispy Meny",129,"Pommes · dryck"],
+            ["Zinger Meny",129,"Pommes · dryck"]
           ]}
         ]
       ],
@@ -50,8 +55,8 @@ window.ALMALEK_MENU = {
           { title: "KYCKLING", items: [
             ["½ Grillad Kyckling",119,"Pommes/ris · vitlökssås · saltgurka"],
             ["Hel Grillad Kyckling · TA MED",189,"Endast takeaway · saftig & nygrillad"],
-            ["½ Friterad Kyckling (4 st)",119,"Vitlökssås · pommes/ris"],
-            ["Hel Friterad Kyckling (8 st)",189,"Stor vitlökssås · tillbehör"]
+            ["½ Friterad Kyckling (4 st) · TA MED",119,"Endast takeaway · vitlökssås · pommes/ris"],
+            ["Hel Friterad Kyckling (8 st) · TA MED",189,"Endast takeaway · stor vitlökssås · tillbehör"]
           ]},
           { title: "SNACKS", compact:true, items: [
             ["Chicken Nuggets 8 st",60], ["Ostrullar 4 st",60], ["Chili Cheese 8 st",60]
@@ -60,7 +65,7 @@ window.ALMALEK_MENU = {
         [
           { title: "FÖRRÄTTER", items: [
             ["Mix Förrätter",50], ["Hummus",50], ["Mutabal",50], ["Muhammara",50],
-            ["Friterad Kibbeh 4 st",60], ["Muhammarabröd",10]
+            ["Friterad Kibbeh 4 st",60], ["Muhammarabröd",15]
           ]},
           { title: "SALLADER", compact:true, items: [
             ["Tabbouleh",75], ["Fattoush",75], ["Coleslaw",50]
@@ -83,7 +88,7 @@ window.ALMALEK_MENU = {
       featured: [
         ["½ Grillad Kyckling",119,"POMMES ELLER RIS · VITLÖKSSÅS","assets/menu/half-grilled-chicken.png"],
         ["Hel Grillad Kyckling · TA MED",189,"ENDAST TAKEAWAY · SAFTIG, NYGRILLAD & PERFEKT ATT DELA","assets/menu/whole-grilled-chicken-takeaway.png"],
-        ["Hel Friterad Kyckling",189,"8 BITAR · SÅS · TILLBEHÖR","assets/menu/whole-fried-chicken.png"],
+        ["Hel Friterad Kyckling · TA MED",189,"ENDAST TAKEAWAY · 8 BITAR · SÅS · TILLBEHÖR","assets/menu/whole-fried-chicken.png"],
         ["Hummus · Mutabal · Muhammara",50,"KLASSISKA MEZE-RÖROR","assets/menu/meze-trio.png"],
         ["Tabbouleh & Fattoush",75,"TVÅ FRÄSCHA SALLADER","assets/menu/salad-duo.png"],
         ["Färsk Juice",59,"JORDGUBB · ANANAS · MANGO · AVOKADO","assets/menu/fresh-juice.png"],
