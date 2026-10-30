@@ -55,7 +55,7 @@ window.ALMALEK_MENU = {
           { title: "KYCKLING", items: [
             ["½ Grillad Kyckling",119,"Pommes/ris · vitlökssås · saltgurka"],
             ["Hel Grillad Kyckling · TA MED",189,"Endast takeaway · saftig & nygrillad"],
-            ["½ Friterad Kyckling (4 st) · TA MED",119,"Endast takeaway · vitlökssås · pommes/ris"],
+            ["½ Friterad Kyckling (4 st)",119,"Vitlökssås · pommes/ris"],
             ["Hel Friterad Kyckling (8 st) · TA MED",189,"Endast takeaway · stor vitlökssås · tillbehör"]
           ]},
           { title: "SNACKS", compact:true, items: [
