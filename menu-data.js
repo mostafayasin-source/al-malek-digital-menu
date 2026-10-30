@@ -46,9 +46,9 @@ window.ALMALEK_MENU = {
         ["Nötköttstallrik",140,"KÖTT · SALLAD · TILLBEHÖR","assets/menu/beef-plate.png"],
         ["Kycklingtallrik",120,"KYCKLING · SALLAD · TILLBEHÖR","assets/menu/chicken-plate.png"],
         ["Falafel Arabi",95,"FALAFEL · POMMES · TAHINI","assets/menu/falafel-arabi.png"],
-        ["Crispy Meny",129,"KRISPIG KYCKLING · POMMES · DRYCK","assets/menu/crispy-meal.png"],
-        ["Zinger Meny",129,"SPICY KYCKLING · POMMES · DRYCK","assets/menu/zinger-meal.png"],
-        ["TA MED · CRISPY & ZINGER","79+","ALLT GÅR ATT TA MED · RULLE 79 · MENY 129","assets/menu/takeaway-crispy-promo.png"]
+        ["Crispy Meny",129,"KRISPIG KYCKLING · POMMES · PICKLES","assets/menu/crispy-meal-plate.png"],
+        ["Zinger Meny",129,"STARK KYCKLING · POMMES · PICKLES","assets/menu/zinger-meal-plate.png"],
+        ["TA MED · CRISPY & ZINGER","129","ALLT GÅR ATT TA MED · CRISPY & ZINGER MENY","assets/menu/takeaway-crispy-promo-v2.png"]
       ]
     },
     2: {
@@ -90,7 +90,7 @@ window.ALMALEK_MENU = {
       ],
       featured: [
         ["½ Grillad Kyckling",119,"POMMES ELLER RIS · VITLÖKSSÅS","assets/menu/half-grilled-chicken.png"],
-        ["Hel Grillad Kyckling · TA MED",189,"KRISPIG POMMES · VITLÖKSSÅS · PICKLES","assets/menu/whole-grilled-chicken-takeaway-v2.png"],
+        ["Hel Grillad Kyckling · TA MED",189,"RUND KRISPIG POTATIS · VITLÖKSSÅS · PICKLES","assets/menu/whole-grilled-chicken-takeaway-v3.png"],
         ["Hel Friterad Kyckling · TA MED",189,"ENDAST TAKEAWAY · 8 BITAR · SÅS · TILLBEHÖR","assets/menu/whole-fried-chicken.png"],
         ["Hummus · Mutabal · Muhammara",50,"KLASSISKA MEZE-RÖROR","assets/menu/meze-trio.png"],
         ["Tabbouleh & Fattoush",75,"TVÅ FRÄSCHA SALLADER","assets/menu/salad-duo.png"],
