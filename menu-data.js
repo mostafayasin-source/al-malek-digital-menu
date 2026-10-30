@@ -33,8 +33,8 @@ window.ALMALEK_MENU = {
             ["Falafel 4 st",25,"Enskilda falafelbollar"]
           ]},
           { title: "MENY", compact: true, items: [
-            ["Crispy Meny",129,"Pommes · dryck"],
-            ["Zinger Meny",129,"Pommes · dryck"]
+            ["Crispy Meny",129,"Runda potatisar · dryck"],
+            ["Zinger Meny",129,"Runda potatisar · dryck"]
           ]}
         ]
       ],
@@ -48,7 +48,10 @@ window.ALMALEK_MENU = {
         ["Falafel Arabi",95,"FALAFEL · POMMES · TAHINI","assets/menu/falafel-arabi.png"],
         ["Crispy Meny",129,"KRISPIG KYCKLING · RUNDA POTATISAR · PICKLES","assets/menu/crispy-meal-plate-v2.png"],
         ["Zinger Meny",129,"STARK KYCKLING · RUNDA POTATISAR · PICKLES","assets/menu/zinger-meal-plate-v2.png"],
-        ["TA MED · CRISPY & ZINGER","129","ALLT GÅR ATT TA MED · CRISPY & ZINGER MENY","assets/menu/takeaway-crispy-promo-v3.png"]
+        ["TA MED · CRISPY & ZINGER",129,"FYRA FAVORITER · PERFEKT ATT TA MED","assets/menu/takeaway-crispy-promo-v3.png",{
+          fullscreen:true,
+          prices:[["Hel Grillad Kyckling · TA MED",189],["Hel Friterad Kyckling · TA MED",189],["Crispy Meny",129],["Zinger Meny",129]]
+        }]
       ]
     },
     2: {
@@ -98,7 +101,10 @@ window.ALMALEK_MENU = {
         ["Milkshake",69,"OREO · VANILJ · JORDGUBB","assets/menu/milkshake.png"],
         ["Majskorn",59,"CHEDDAR · SMÖR · KRYDDOR","assets/menu/corn-cup.png"],
         ["Våfflor · Crêpe · Pannkakor",89,"NUTELLA · EXTRA TOPPING +20","assets/menu/dessert-trio.png"],
-        ["JUICE & DESSERT FEST","59+","JUICE 59 · MILKSHAKE 69 · DESSERT 89","assets/menu/juice-dessert-promo.png"]
+        ["JUICE & DESSERT FEST",59,"FÄRSKT · KALLT · SÖTT","assets/menu/juice-dessert-promo.png",{
+          fullscreen:true,
+          prices:[["Färsk Juice",59],["Milkshake",69],["Våfflor · Crêpe · Pannkakor",89]]
+        }]
       ]
     }
   }

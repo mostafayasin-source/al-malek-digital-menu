@@ -16,6 +16,13 @@ function groupView(group) {
     </div>`).join("")}</div>
   </section>`;
 }
+function featureCardView(item, i) {
+  const [name, price, desc,, meta = {}] = item;
+  const priceList = meta.prices ? `<div class="ad-price-list">${meta.prices.map(([label,value])=>`<div><span>${label}</span><b>${value} <small>KR</small></b></div>`).join("")}</div>` : "";
+  return `<article class="feature-card ${i===0?"active":""}" data-fullscreen="${meta.fullscreen ? "true" : "false"}">
+    <p>${meta.fullscreen ? "AL MALEK ERBJUDANDE" : "UTVALT JUST NU"}</p><h2>${name}</h2><span>${desc}</span>${priceList}<div class="feature-price"><b>${price}</b><small>KR</small></div>
+  </article>`;
+}
 function screenView(id) {
   const s = data.screens[id];
   return `<div class="display display-${id}" data-screen="${id}">
@@ -29,9 +36,7 @@ function screenView(id) {
       <aside class="feature-panel">
         <div class="feature-glow"></div><div class="feature-tag"><i></i><span>AL MALEK FAVORITER</span></div>
         <div class="feature-images">${s.featured.map(([name,,,image],i)=>`<img class="feature-photo ${i===0?"active":""}" src="${image}" alt="${name}">`).join("")}</div>
-        <div class="feature-cards">${s.featured.map(([name,price,desc],i)=>`<article class="feature-card ${i===0?"active":""}">
-          <p>UTVALT JUST NU</p><h2>${name}</h2><span>${desc}</span><div class="feature-price"><b>${price}</b><small>KR</small></div>
-        </article>`).join("")}</div>
+        <div class="feature-cards">${s.featured.map(featureCardView).join("")}</div>
         <div class="feature-progress"><span class="count">01</span><div><i></i></div><span>${String(s.featured.length).padStart(2,"0")}</span></div>
       </aside>
     </main>
@@ -61,11 +66,13 @@ if (isScreen) {
   const photos = [...document.querySelectorAll(".feature-photo")];
   const count = document.querySelector(".feature-progress .count");
   const progress = document.querySelector(".feature-progress i");
+  const display = document.querySelector(".display");
   let current = 0;
   setInterval(() => {
     cards[current].classList.remove("active"); photos[current].classList.remove("active");
     current = (current + 1) % cards.length;
     cards[current].classList.add("active"); photos[current].classList.add("active");
+    display.classList.toggle("fullscreen-ad", cards[current].dataset.fullscreen === "true");
     count.textContent = String(current + 1).padStart(2,"0");
     progress.style.animation = "none"; void progress.offsetWidth; progress.style.animation = "fill 6.5s linear";
   }, 6500);
